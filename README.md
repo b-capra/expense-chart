@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Overview
 
-### The Challenge
+### Project Goals
 
 Users should be able to:
 
@@ -25,11 +25,21 @@ Users should be able to:
 Solution:
 Live Site: 
 
+## Development Process
+
 ### Built With
 
 - [React](https://reactjs.org/) - JS library
 - Flexbox
 - Mobile-first workflow
+
+### What I learned
+
+While I initially thought I knew what 'mobile-first' development meant, I realized I was sorely mistaken on my last mobile responsive project and spent hours refactoring CSS. This time around, I've implemented a true mobile-first process that made working with the media queries far less time consuming.
+
+Given this is my first React project, I've been learning a ton about React as I go, and have kept a specific eye out for any best practices I should be learning to develop good habits early. I also really like being able to have my CSS organized by component, and overall have put good effort into keeping a clean and organized file structure for the project.
+
+Additionally, working with React also meant learning how to deploy my React App on Github Pages. While this process is probably mundane to most, I thought the idea of deploying the new build in my local repository, pushing it to the remote, and having the remote create a new branch with a static build deploy was super interesting. 
 
 ## Author
 
