@@ -1,5 +1,8 @@
 html {
-  --cream-bg: hsl(27, 66%, 92%)
+  --cream-bg: hsl(27, 66%, 92%);
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
 }
 
 body {
