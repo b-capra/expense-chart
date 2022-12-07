@@ -2,6 +2,7 @@
   background-color: var(--card-white);
   color: var(--dark-brown);
   border-radius: 10px;
+  margin-bottom: auto;
 }
 
 @media only screen and (max-width: 412px) {

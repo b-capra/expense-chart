@@ -1,6 +1,7 @@
 .balance-card {
   background-color: var(--red);
   color: var(--white);
+  margin-top: auto;
   padding: 0 24px 0 20px;
   border-radius: 10px;
   display: flex;

@@ -6,3 +6,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--red);
+}
