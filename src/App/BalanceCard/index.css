@@ -9,13 +9,10 @@
 }
 
 .text {
-  font-size: 15px;
   margin-top: 0;
-  margin-bottom: 3px;
 }
 
 .amount {
-  font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
@@ -24,5 +21,29 @@
   .balance-card {
     width: 343px;
     height: 97px;
+  }
+
+  .text {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+
+  .amount {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 413px) {
+  .balance-card {
+    width: 540px;
+    height: 125px;
+  }
+
+  .text {
+    margin-bottom: 7px;
+  }
+
+  .amount {
+    font-size: 32px;
   }
 }
