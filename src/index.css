@@ -6,6 +6,10 @@ html {
 }
 
 body {
+  margin: 0;
+}
+
+#root {
   background-color: var(--cream-bg);
   height: 100vh;
 }
