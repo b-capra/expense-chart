@@ -1,0 +1,8 @@
+html {
+  --cream-bg: hsl(27, 66%, 92%)
+}
+
+body {
+  background-color: var(--cream-bg);
+  height: 100vh;
+}
