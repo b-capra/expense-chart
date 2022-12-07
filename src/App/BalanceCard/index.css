@@ -1,7 +1,23 @@
 .balance-card {
   background-color: var(--red);
   color: var(--white);
+  padding: 0 24px 0 20px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
 }
 
 @media only screen and (max-width: 412px) {
