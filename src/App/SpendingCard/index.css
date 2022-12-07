@@ -1,0 +1,12 @@
+.spending-card {
+  background-color: var(--card-white);
+  color: var(--dark-brown);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 412px) {
+  .spending-card {
+    width: 343px;
+    height: 421px;
+  }
+}

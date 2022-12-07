@@ -4,7 +4,7 @@ import SpendingCard from './SpendingCard';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <BalanceCard />
       <SpendingCard />
     </div>

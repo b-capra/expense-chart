@@ -1,0 +1,12 @@
+.balance-card {
+  background-color: var(--red);
+  color: var(--white);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 412px) {
+  .balance-card {
+    width: 343px;
+    height: 97px;
+  }
+}
