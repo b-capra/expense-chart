@@ -3,7 +3,6 @@
   color: var(--white);
   margin-top: auto;
   padding: 0 24px 0 20px;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,6 +21,8 @@
   .balance-card {
     width: 343px;
     height: 97px;
+    border-radius: 10px;
+    margin-bottom: 16px;
   }
 
   .text {
@@ -38,6 +39,8 @@
   .balance-card {
     width: 540px;
     height: 125px;
+    border-radius: 20px;
+    margin-bottom: 24px;
   }
 
   .text {

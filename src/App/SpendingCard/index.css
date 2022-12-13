@@ -1,7 +1,6 @@
 .spending-card {
   background-color: var(--card-white);
   color: var(--dark-brown);
-  border-radius: 10px;
   margin-bottom: auto;
   padding: 24px 20px;
 }
@@ -16,5 +15,14 @@
   .spending-card {
     width: 343px;
     height: 421px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 413px) {
+  .spending-card {
+    width: 540px;
+    height: 511px;
+    border-radius: 20px;
   }
 }
