@@ -3,3 +3,9 @@
   align-items: flex-end;
   justify-content: space-between;
 }
+
+.labelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
