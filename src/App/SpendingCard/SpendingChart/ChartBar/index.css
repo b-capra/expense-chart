@@ -1,0 +1,16 @@
+.bar {
+  background-color: var(--red);
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 412px) {
+  .bar {
+    width: 33px;
+  }
+}
+
+@media only screen and (min-width: 413px) {
+  .bar {
+    width: 50px;
+  }
+}
