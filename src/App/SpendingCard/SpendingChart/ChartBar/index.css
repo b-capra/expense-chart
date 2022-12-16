@@ -35,6 +35,7 @@
   .bar {
     width: 50px;
     margin-bottom: 8px;
+    transition: background-color 0.15s;
   }
 
   .label {
@@ -47,11 +48,19 @@
     font-weight: bold;
     background-color: var(--dark-brown);
     width: 72px;
-    height: 40px;
+    height: 0px;
     text-align: center;
     line-height: 40px;
     border-radius: 5px;
     margin: 0 -11px 8px -11px;
-    display: none; 
+    transition: height ease-in 0.1s;
+  }
+
+  .dayContainer:hover > .bar {
+    background-color: var(--red-hov);
+  }
+
+  .dayContainer:hover > .hoverLabel {
+    height: 40px;
   }
 }
