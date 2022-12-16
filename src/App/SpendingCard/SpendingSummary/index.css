@@ -11,6 +11,7 @@
 
 .left {
   align-items: flex-start;
+  justify-content: space-between;
 }
 
 .right {

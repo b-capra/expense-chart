@@ -2,11 +2,15 @@
   background-color: var(--card-white);
   color: var(--dark-brown);
   margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .heading {
   font-weight: bold;
   margin: 0;
+  margin-bottom: auto;
 }
 
 .divider {
@@ -26,6 +30,10 @@
   .heading {
     font-size: 24px;
   }
+
+  .divider {
+    margin: 24px 0;
+  }
 }
 
 @media only screen and (min-width: 413px) {
@@ -38,5 +46,9 @@
 
   .heading {
     font-size: 32px;
+  }
+
+  .divider {
+    margin: 32px 0;
   }
 }
