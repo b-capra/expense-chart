@@ -18,6 +18,7 @@
 @media only screen and (max-width: 412px) {
   .bar {
     width: 33px;
+    margin-bottom: 11px;
   }
 
   .label {
@@ -29,6 +30,7 @@
 @media only screen and (min-width: 413px) {
   .bar {
     width: 50px;
+    margin-bottom: 8px;
   }
 
   .label {
