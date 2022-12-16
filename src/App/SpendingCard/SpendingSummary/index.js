@@ -1,15 +1,11 @@
 import './index.css'
 
-const SpendingSummary = ({data}) => {
-  const dailyAmts = data.map(dayObj => dayObj.amount)
-  const total = dailyAmts.reduce((acc, cur) => acc + cur)
-  
-
+const SpendingSummary = () => {
   return (
     <div className="main">
       <div className="left">
         <p className="textTotal">Total this month</p>
-        <p className='total'>${total}</p>
+        <p className='total'>$478.33</p>
       </div>
       <div className="right">
         <p className='percent'>+2.4%</p>

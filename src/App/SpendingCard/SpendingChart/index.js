@@ -1,13 +1,17 @@
 import './index.css'
 import ChartBar from "./ChartBar"
 
-const SpendingChart = (data) => {
-  const weeklySpend = data.data
+const SpendingChart = ({data}) => {
+  const currentDay = new Date().toString().slice(0, 3).toLowerCase()
 
   return (
     <div className="chartContainer">
-      {weeklySpend.map(dailySpend => 
-        <ChartBar key={weeklySpend.indexOf(dailySpend)} data={dailySpend} />
+      {data.map(dailySpend => 
+        <ChartBar 
+          key={data.indexOf(dailySpend)} 
+          data={dailySpend} 
+          current={dailySpend.day === currentDay ? true : false}
+        />
       )}
     </div>
   )
