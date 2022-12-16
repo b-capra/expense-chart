@@ -18,18 +18,18 @@ Users should be able to:
 
 ### Screenshots
 
-![]()
+![](./src/screenshot.png)
 
 ### Links
 
-Solution:
-Live Site: 
+- Solution: [Frontend Mentor]()
+- Live Site: [bcapra.com](https://www.bcapra.com/expense-chart)
 
 ## Development Process
 
 ### Built With
 
-- [React](https://reactjs.org/) - JS library
+- [React](https://reactjs.org/)
 - Flexbox
 - Mobile-first workflow
 
@@ -37,9 +37,9 @@ Live Site:
 
 While I initially thought I knew what 'mobile-first' development meant, I realized I was sorely mistaken on my last mobile responsive project and spent hours refactoring CSS. This time around, I've implemented a true mobile-first process that made working with the media queries far less time consuming.
 
-Given this is my first React project, I've been learning a ton about React as I go, and have kept a specific eye out for any best practices I should be learning to develop good habits early. I also really like being able to have my CSS organized by component, and overall have put good effort into keeping a clean and organized file structure for the project.
+Given this is one of my first React projects, I've been learning a ton about React as I go, and getting more proficient with the process of developing UIs through a framework rather than coding them from scratch. There are still some growing pains, and I think I'll explore other frameworks like Svelte alongside React as I continue.
 
-Additionally, working with React also meant learning how to deploy my React App on Github Pages. While this process is probably mundane to most, I thought the idea of deploying the new build in my local repository, pushing it to the remote, and having the remote create a new branch with a static build deploy was super interesting. 
+Additionally, working with React also meant learning how to deploy my React App on Github Pages for the first time. While this process is probably mundane to most, I thought the idea of 'deploying' the new build in my local repository, pushing it to the remote, and having the remote create a new branch with static assets to deploy was super interesting. 
 
 ## Author
 
