@@ -6,6 +6,7 @@ const SpendingCard = (data) => {
     <div className='spending-card'>
       <p className='heading'>Spending - Last 7 days</p>
       <SpendingChart data={data.data} />
+      <div className='divider'></div>
     </div>
   )
 }
