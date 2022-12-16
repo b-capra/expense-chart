@@ -10,7 +10,8 @@ const ChartBar = (data) => {
 
   return (
     <div className='dayContainer'>
-      <div className="bar" style={varStyles}></div>
+      <div className='hoverLabel'>${data.data.amount}</div>
+      <div className='bar' style={varStyles}></div>
       <div className='label'>{data.data.day}</div>
     </div>
   )

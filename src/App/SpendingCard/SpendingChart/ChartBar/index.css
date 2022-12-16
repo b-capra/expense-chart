@@ -25,6 +25,10 @@
     width: 33px;
     font-size: 12px;
   }
+
+  .hoverLabel {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 413px) {
@@ -36,5 +40,18 @@
   .label {
     width: 50px;
     font-size: 15px;
+  }
+
+  .hoverLabel {
+    color: var(--card-white);
+    font-weight: bold;
+    background-color: var(--dark-brown);
+    width: 72px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 0 -11px 8px -11px;
+    display: none; 
   }
 }
