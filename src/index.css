@@ -4,7 +4,9 @@
 
 html {
   --red: hsl(10, 79%, 65%);
+  --red-hov: hsl(10, 100%, 76%);
   --cyan: hsl(186, 34%, 60%);
+  --cyan-hov: hsl(186, 49%, 80%);
   --dark-brown: hsl(25, 47%, 15%);
   --med-brown: hsl(28, 10%, 53%);
   --cream-bg: hsl(27, 66%, 92%);
